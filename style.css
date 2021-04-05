@@ -30,28 +30,28 @@ body {
   height: 28px;
   border-radius: 50%;
   opacity: 0.7;
-  }
+}
 
 .logo__circle_color_dark-blue {
   background: #0056ec;
-  }
+}
 
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #c8dbfb;
-  }
+}
 
 .menu {
   display: flex;
   align-items: center;
-  }
+}
 
 .menu__iten {
   padding: 0 13px;
   border: dashed 1px red;
-  }
+}
 
 .menu__iten:last-child {
   padding: 0;
-  }
+}
