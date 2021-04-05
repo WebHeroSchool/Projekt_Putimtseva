@@ -1,20 +1,24 @@
- body {
+body {
   font-family: Roboto;
   margin: 0;
-  }
+}
+
 .wrapper {
   margin: auto;
   width: 80%;
   border: dashed 1px red;
   }
+
 .header {
   display: flex;
   justify-content: space-between;
   }
+
 .logo {
   padding: 40px 0;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   }
+
 .menu {
   display: flex;
   align-items: center;
