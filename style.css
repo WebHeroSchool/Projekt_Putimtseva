@@ -25,18 +25,20 @@ body {
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
-  border: dashed 1px red;
+  border-radius: 50%;
+  opacity: .7;
   }
+
 .logo__circle_color_dark-blue {
   background: #0056EC;
-  border: dashed 1px red;
   }
+
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #C8DBFB;
-  border: dashed 1px red;
   }
+
 .menu {
   display: flex;
   align-items: center;
