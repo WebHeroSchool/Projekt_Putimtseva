@@ -1,5 +1,4 @@
 body {
-  font-family: Roboto;
   margin: 0;
 }
 
@@ -18,7 +17,7 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  font: bold 24px/31px 'pt serif', arial, helvetica, sans-serif;
 }
 
 .logo__circle {
