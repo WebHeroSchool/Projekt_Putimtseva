@@ -50,7 +50,7 @@ body {
 .menu__iten {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   border: dashed 1px red;
   color: #000000;
   text-decoration: none;
