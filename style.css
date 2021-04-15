@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto;
+  font-family:'Roboto';
   margin: 0;
 }
 
@@ -12,13 +12,14 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  font: bold 24px/31px 'pt serif', arial, helvetica, sans-serif;
 }
 
 .logo__circle {
@@ -48,10 +49,89 @@ body {
 }
 
 .menu__iten {
-  padding: 0 13px;
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   border: dashed 1px red;
+  color: #000000;
+  text-decoration: none;
+  transition: opacity 0.5;
 }
 
 .menu__iten:last-child {
-  padding: 0;
+  margin-right: 0;
+}
+
+.menu__iten_activ::after {
+  position: absolute;
+  left: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #0056ec;
+}
+
+.menu__iten:after {
+  position: absolute;
+  left: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #0056ec;
+  opacity: 0;
+  transition: opacity: .5;
+}
+
+.menu__iten:hover {
+  opacity: 0.5;
+}
+
+.menu__iten:hover:after, .menu__iten_activ::after {
+  opacity: 1;
+}
+
+.menu__iten:hover:after {
+  position: absolute;
+  left: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #0056ec;
+}
+
+.main {
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/frame.svg);
+}
+
+.main__title {
+  margin: 0 0 40px 0;
+  font: bold 50px/65px 'pt serif', arial, helvetica, sans-serif;
+}
+
+.main__subtitle {
+  margin: 0 0 41px 0;
+  font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
+}
+
+.main__button {
+  display: inline-block;
+  font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056ec;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity 0.5;
+}
+
+.main__title-text_highlight {
+  background: #ecf3ff;
+}
+
+.main__button:hover {
+  opacity: 0.5;
 }
